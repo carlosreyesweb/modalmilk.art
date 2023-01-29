@@ -5,13 +5,13 @@ export default function SocialMedia(props) {
   return (
     <ul className={styles.list}>
       <li>
-        <SocialLink link="https://instagram.com/modalmilk" media="instagram" />
+        <SocialLink link="https://instagram.com/modalmilk" media="Instagram" />
       </li>
       <li>
-        <SocialLink link="" media="twitter" />
+        <SocialLink link="" media="Twitter" />
       </li>
       <li>
-        <SocialLink link="" media="kofi" />
+        <SocialLink link="" media="Kofi" />
       </li>
     </ul>
   )
