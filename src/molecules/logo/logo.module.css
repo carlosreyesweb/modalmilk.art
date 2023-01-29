@@ -1,0 +1,9 @@
+.logo {
+  font-family: 'Jua', sans-serif;
+  font-weight: var(--display);
+  margin: 0;
+}
+
+.innerLink {
+  color: var(--font-color);
+}

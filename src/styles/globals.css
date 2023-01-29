@@ -8,6 +8,8 @@
   /* colors */
   --primary: #4d2d73;
   --secondary: #ffcc58;
+  --font-color: #333333;
+  --bg: #f0f0f0;
   /* font weights */
   --display: 400;
   --regular: 400;
@@ -20,19 +22,14 @@ body {
   margin: 0;
   padding: 0 10%;
   font-family: 'Open Sans', sans-serif;
-  background-color: #f0f0f0;
-  color: #333333;
+  background-color: var(--bg);
+  color: var(--font-color);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-  font-family: 'Jua', sans-serif;
-  font-weight: var(--display);
-  font-size: 3.5rem;
-}
-
+h1,
 h2,
 h3,
 h4,
@@ -40,6 +37,10 @@ h5,
 h6 {
   font-family: 'Nunito', sans-serif;
   font-weight: var(--medium);
+}
+
+h1 {
+  font-size: 3.5rem;
 }
 
 h2 {
