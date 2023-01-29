@@ -2,8 +2,9 @@
   font-family: 'Jua', sans-serif;
   font-weight: var(--display);
   margin: 0;
+  color: var(--primary);
 }
 
 .innerLink {
-  color: var(--font-color);
+  color: var(--primary);
 }
