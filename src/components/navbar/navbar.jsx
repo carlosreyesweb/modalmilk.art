@@ -1,6 +1,6 @@
-import Logo from '@/molecules/logo/logo'
-import Navigation from '@/molecules/navigation/navigation'
-import SocialMedia from '@/molecules/social-media/social-media'
+import Logo from '@/components/logo/logo'
+import Navigation from '@/components/navigation/navigation'
+import SocialMedia from '@/components/social-media/social-media'
 import styles from './navbar.module.css'
 
 export default function Navbar(props) {

@@ -1,4 +1,4 @@
-import SocialLink from '@/atoms/social-link/social-link'
+import SocialLink from '@/components/social-link/social-link'
 import styles from './social-media.module.css'
 
 export default function SocialMedia(props) {

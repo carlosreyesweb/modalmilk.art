@@ -1,4 +1,4 @@
-import NavLink from '@/atoms/nav-link/nav-link'
+import NavLink from '@/components/nav-link/nav-link'
 import styles from './navigation.module.css'
 
 export default function Navigation(props) {
