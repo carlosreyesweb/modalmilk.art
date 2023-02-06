@@ -20,7 +20,6 @@
 
 body {
   margin: 0;
-  padding: 0 10%;
   font-family: 'Open Sans', sans-serif;
   background-color: var(--bg);
   color: var(--font-color);

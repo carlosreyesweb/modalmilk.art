@@ -1,12 +1,13 @@
 import Footer from '@/components/footer/footer'
-import Navbar from '@/components/navbar/navbar'
+import Header from '@/components/header/header'
+import styles from './frame.module.css'
 
 export default function Frame({ children }) {
   return (
-    <>
-      <Navbar />
+    <div className={styles.container}>
+      <Header />
       {children}
       <Footer />
-    </>
+    </div>
   )
 }
