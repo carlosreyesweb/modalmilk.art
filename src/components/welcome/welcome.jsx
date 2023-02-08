@@ -13,7 +13,7 @@ export default function Welcome(props) {
         <hr className={styles.divider} />
         <SocialMedia className={styles.socialMedia} />
       </div>
-      <Image src={modalmilk} alt="ModalMilk" className={styles.photo} />
+      <Image src={modalmilk} alt="ModalMilk" className={styles.photo} priority />
     </section>
   )
 }
