@@ -1,5 +1,6 @@
 import Lightbox from 'yet-another-react-lightbox'
 import { Thumbnails } from 'yet-another-react-lightbox/plugins'
+import 'yet-another-react-lightbox/styles.css'
 import Gallery from '../gallery/gallery'
 import Illustration from '../illustration/illustration'
 import styles from './illustrations.module.css'
