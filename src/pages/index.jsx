@@ -1,10 +1,10 @@
 import Portfolio from '@/components/portfolio/portfolio'
 import Welcome from '@/components/welcome/welcome'
-import { getPortfolio } from '@/services/storyblok.service'
+import { getProjects } from '@/services/storyblok.service'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default function Home({ illustrations }) {
+export default function Home({ projects }) {
   return (
     <>
       <Head>
@@ -16,13 +16,13 @@ export default function Home({ illustrations }) {
       </Head>
       <main className={styles.main}>
         <Welcome />
-        <Portfolio illustrations={illustrations} />
+        <Portfolio projects={projects} />
       </main>
     </>
   )
 }
 
 export async function getStaticProps() {
-  const illustrations = await getPortfolio()
-  return { props: { illustrations }, revalidate: 60 }
+  const projects = await getProjects()
+  return { props: { projects }, revalidate: 60 }
 }

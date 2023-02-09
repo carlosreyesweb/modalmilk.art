@@ -6,7 +6,7 @@ export default function Illustration({ data, onClick }) {
     <article className={styles.container} onClick={onClick}>
       <Image
         src={data.src}
-        alt={data.name}
+        alt={data.alt}
         title={data.name}
         className={styles.image}
         width={data.width}
