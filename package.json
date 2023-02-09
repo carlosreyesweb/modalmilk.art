@@ -9,20 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.10.0",
-    "@hookform/resolvers": "^2.9.10",
-    "@storyblok/react": "^2.0.12",
-    "classnames": "^2.3.2",
+    "@emailjs/browser": "3.10.0",
+    "@hookform/resolvers": "2.9.10",
+    "@storyblok/react": "2.0.12",
+    "classnames": "2.3.2",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.2",
     "next": "13.1.2",
-    "nprogress": "^0.2.0",
+    "nprogress": "0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-google-recaptcha": "^2.1.0",
-    "react-hook-form": "^7.42.1",
-    "react-hot-toast": "^2.4.0",
-    "react-markdown": "^8.0.5",
-    "yup": "^0.32.11"
+    "react-google-recaptcha": "2.1.0",
+    "react-hook-form": "7.42.1",
+    "react-hot-toast": "2.4.0",
+    "react-markdown": "8.0.5",
+    "yet-another-react-lightbox": "2.3.0",
+    "yup": "0.32.11"
   }
 }
