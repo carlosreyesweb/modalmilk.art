@@ -4,4 +4,5 @@
   grid-auto-rows: min-content;
   justify-content: center;
   gap: 50px 0;
+  padding: 0 40px;
 }
