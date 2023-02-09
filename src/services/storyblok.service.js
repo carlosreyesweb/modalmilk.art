@@ -8,7 +8,7 @@ storyblokInit({
 
 const api = getStoryblokApi()
 
-export async function getIllustrations() {
+export async function getPortfolio() {
   const response = await api.get('cdn/stories', {
     starts_with: 'portfolio/',
     sort_by: 'content.createdAt:desc',
@@ -22,7 +22,7 @@ export async function getIllustrations() {
       uuid: story.uuid,
       name: story.name,
       slug: story.slug,
-      image: story.content.image.filename,
+      src: story.content.image.filename,
       width,
       height,
     }

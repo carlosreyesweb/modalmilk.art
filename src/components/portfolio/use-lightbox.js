@@ -3,8 +3,8 @@ import { useState } from 'react'
 export function useLightbox(illustrations) {
   const [open, setOpen] = useState(false)
   const [index, setIndex] = useState(0)
-  const slides = illustrations.map(({ image, width, height }) => ({
-    src: image,
+  const slides = illustrations.map(({ src, width, height }) => ({
+    src,
     width,
     height,
   }))

@@ -1,6 +1,6 @@
 import Portfolio from '@/components/portfolio/portfolio'
 import Welcome from '@/components/welcome/welcome'
-import { getIllustrations } from '@/services/storyblok.service'
+import { getPortfolio } from '@/services/storyblok.service'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
@@ -23,6 +23,6 @@ export default function Home({ illustrations }) {
 }
 
 export async function getStaticProps() {
-  const illustrations = await getIllustrations()
+  const illustrations = await getPortfolio()
   return { props: { illustrations }, revalidate: 60 }
 }
