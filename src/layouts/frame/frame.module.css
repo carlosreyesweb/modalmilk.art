@@ -1,5 +1,7 @@
 .container {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 40px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 1300px);
+  grid-auto-rows: min-content;
+  justify-content: center;
+  gap: 50px 0;
 }
