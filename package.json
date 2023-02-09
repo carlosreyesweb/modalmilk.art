@@ -11,7 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@hookform/resolvers": "^2.9.10",
-    "@storyblok/react": "^2.0.8",
+    "@storyblok/react": "^2.0.12",
     "classnames": "^2.3.2",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.2",
