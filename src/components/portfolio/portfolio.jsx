@@ -1,5 +1,3 @@
-import 'yet-another-react-lightbox/plugins/thumbnails.css'
-import 'yet-another-react-lightbox/styles.css'
 import Gallery from '../gallery/gallery'
 import Project from '../project/project'
 import styles from './portfolio.module.css'
