@@ -17,7 +17,9 @@ export default function Project({ data }) {
           height={data.cover.height}
         />
       </Link>
-      <h3 className={styles.name}>{data.name}</h3>
+      <h3 className={styles.name}>
+        <Link href={link}>{data.name}</Link>
+      </h3>
     </article>
   )
 }

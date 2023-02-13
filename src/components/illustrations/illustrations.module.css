@@ -1,0 +1,11 @@
+.header {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
