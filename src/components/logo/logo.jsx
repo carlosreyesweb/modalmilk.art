@@ -1,12 +1,13 @@
 import classNames from 'classnames'
+import Link from 'next/link'
 import styles from './logo.module.css'
 
-export default function Logo({ className, ...props }) {
+export default function Logo({ className }) {
   const anchorClass = classNames(styles.logo, className)
 
   return (
-    <a className={anchorClass} href="https://modalmilk.art" {...props}>
+    <Link className={anchorClass} href="/">
       ModalMilk
-    </a>
+    </Link>
   )
 }

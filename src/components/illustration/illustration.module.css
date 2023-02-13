@@ -8,6 +8,7 @@
   object-fit: cover;
   object-position: center;
   transition: transform 0.2s;
+  cursor: zoom-in;
 }
 
 .container:hover .image {

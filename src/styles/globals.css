@@ -56,7 +56,11 @@ a {
 
 a,
 sup {
-  color: var(--secondary);
+  color: var(--primary);
+}
+
+a {
+  font-weight: var(--medium);
 }
 
 #nprogress .bar {
