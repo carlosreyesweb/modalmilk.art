@@ -7,7 +7,7 @@ export default function Illustration({ data, onClick }) {
       <Image
         src={data.src}
         alt={data.alt}
-        title={data.name}
+        title="Haz clic para ver la imagen completa"
         className={styles.image}
         width={data.width}
         height={data.height}

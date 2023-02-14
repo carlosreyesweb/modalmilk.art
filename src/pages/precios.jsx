@@ -1,14 +1,23 @@
 import Main from '@/components/main/main'
+import Pricing from '@/components/pricing/pricing'
+import { getCommissions } from '@/services/pricing.service'
 import Head from 'next/head'
 
-export default function Pricing(props) {
+export default function Precios({ commissions }) {
   return (
     <>
       <Head>
         <title>Precios - ModalMilk</title>
         <meta name="description" content="" />
       </Head>
-      <Main></Main>
+      <Main>
+        <Pricing commissions={commissions} />
+      </Main>
     </>
   )
+}
+
+export async function getStaticProps() {
+  const commissions = await getCommissions()
+  return { props: { commissions }, revalidate: 60 }
 }

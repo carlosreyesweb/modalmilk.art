@@ -1,7 +1,7 @@
 import Main from '@/components/main/main'
 import Portfolio from '@/components/portfolio/portfolio'
 import Welcome from '@/components/welcome/welcome'
-import { getProjects } from '@/services/storyblok.service'
+import { getProjects } from '@/services/portfolio.service'
 import Head from 'next/head'
 
 export default function Home({ projects }) {

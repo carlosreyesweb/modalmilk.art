@@ -3,10 +3,12 @@
   grid-template-rows: 1fr min-content;
   gap: 5px 0;
   padding: 5px;
+  border-radius: var(--br-outer);
+  transition: box-shadow 0.2s;
 }
 
 .container:hover {
-  box-shadow: 0 0 0 1px var(--primary);
+  box-shadow: 0 0 0 2px var(--primary);
 }
 
 .name {
@@ -22,4 +24,5 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  border-radius: var(--br-inner);
 }

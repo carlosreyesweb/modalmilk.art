@@ -1,6 +1,6 @@
 import Illustrations from '@/components/illustrations/illustrations'
 import Main from '@/components/main/main'
-import { getProject, getProjectSlugs } from '@/services/storyblok.service'
+import { getProject, getProjectSlugs } from '@/services/portfolio.service'
 import Head from 'next/head'
 
 export default function Project({ data }) {
