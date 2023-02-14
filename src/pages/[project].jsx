@@ -1,7 +1,7 @@
 import Illustrations from '@/components/illustrations/illustrations'
-import { getProject, getProjectSlugs } from '@/services/storyblok.service'
+import Main from '@/components/main/main'
+import { getProject, getProjectSlugs } from '@/services/portfolio.service'
 import Head from 'next/head'
-import styles from '../styles/Project.module.css'
 
 export default function Project({ data }) {
   return (
@@ -10,9 +10,9 @@ export default function Project({ data }) {
         <title>{`${data.name} - ModalMilk`}</title>
         <meta name="description" content={data.name} />
       </Head>
-      <main className={styles.main}>
+      <Main>
         <Illustrations data={data} />
-      </main>
+      </Main>
     </>
   )
 }

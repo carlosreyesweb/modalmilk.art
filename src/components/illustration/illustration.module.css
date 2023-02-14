@@ -1,5 +1,6 @@
 .container {
   overflow: hidden;
+  border-radius: var(--br-inner);
 }
 
 .image {

@@ -15,6 +15,9 @@
   --regular: 400;
   --medium: 600;
   --bold: 700;
+  /* Border radiuses */
+  --br-outer: 10px;
+  --br-inner: 5px;
   scroll-behavior: smooth;
 }
 

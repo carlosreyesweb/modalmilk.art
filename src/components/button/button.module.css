@@ -1,0 +1,11 @@
+.button {
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-weight: var(--medium);
+  color: #f0f0f0;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: var(--primary);
+  border-radius: var(--br-inner);
+}
