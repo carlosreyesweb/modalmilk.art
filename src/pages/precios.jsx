@@ -1,3 +1,4 @@
+import Contact from '@/components/contact/contact'
 import Main from '@/components/main/main'
 import Pricing from '@/components/pricing/pricing'
 import { getCommissions } from '@/services/pricing.service'
@@ -12,6 +13,7 @@ export default function Precios({ commissions }) {
       </Head>
       <Main>
         <Pricing commissions={commissions} />
+        <Contact />
       </Main>
     </>
   )
